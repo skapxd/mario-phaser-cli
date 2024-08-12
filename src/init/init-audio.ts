@@ -1,19 +1,19 @@
 const AUDIOS_MAP = [
   {
     key: 'gameover',
-    path: 'public/assets/sound/music/gameover.mp3'
+    path: '/assets/sound/music/gameover.mp3'
   },
   {
     key: 'goomba-stomp',
-    path: 'public/assets/sound/effects/goomba-stomp.wav'
+    path: '/assets/sound/effects/goomba-stomp.wav'
   },
   {
     key: 'coin-pickup',
-    path: 'public/assets/sound/effects/coin.mp3'
+    path: '/assets/sound/effects/coin.mp3'
   },
   {
     key: 'powerup',
-    path: 'public/assets/sound/effects/consume-powerup.mp3'
+    path: '/assets/sound/effects/consume-powerup.mp3'
   }
 ] as const
 

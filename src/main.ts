@@ -37,11 +37,11 @@ const config: Types.Core.GameConfig = {
 };
 
 function preload(this: Phaser.Scene) {
-    this.load.image("cloud1", 'public/assets/scenery/overworld/cloud1.png')
+    this.load.image("cloud1", '/assets/scenery/overworld/cloud1.png')
 
-    this.load.image("floorbricks", 'public/assets/scenery/overworld/floorbricks.png')
+    this.load.image("floorbricks", '/assets/scenery/overworld/floorbricks.png')
 
-    this.load.image("supermushroom", 'public/assets/collectibles/super-mushroom.png')
+    this.load.image("supermushroom", '/assets/collectibles/super-mushroom.png')
 
     initAudio(this)
     initSpriteSheet(this)

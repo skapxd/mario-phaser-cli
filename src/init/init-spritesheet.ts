@@ -7,22 +7,22 @@ const SPRITES_SHEET_MAP: Array<{
 }> = [
     {
       key: 'mario',
-      path: 'public/assets/entities/mario.png',
+      path: '/assets/entities/mario.png',
       frameConfig: { frameWidth: 18, frameHeight: 16 }
     },
     {
       key: 'goomba',
-      path: 'public/assets/entities/overworld/goomba.png',
+      path: '/assets/entities/overworld/goomba.png',
       frameConfig: { frameWidth: 16, frameHeight: 16 }
     },
     {
       key: 'coin',
-      path: 'public/assets/collectibles/coin.png',
+      path: '/assets/collectibles/coin.png',
       frameConfig: { frameWidth: 16, frameHeight: 16 }
     },
     {
       key: 'mario-grown',
-      path: 'public/assets/entities/mario-grown.png',
+      path: '/assets/entities/mario-grown.png',
       frameConfig: { frameWidth: 18, frameHeight: 32 }
     },
   ]
